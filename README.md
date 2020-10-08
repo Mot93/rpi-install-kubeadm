@@ -14,14 +14,13 @@ Example Playbook
 
 Out of the box:
 
-''' YAML
----
-- hosts: localhost
-  remote_user: pi
-  become: yes
-  roles:
-    - rpi-install-kubeadm
-'''
+    ---
+    - hosts: localhost
+      remote_user: pi
+      become: yes
+      roles:
+        - rpi-install-kubeadm
+
 
 License
 -------
